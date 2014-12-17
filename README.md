@@ -23,7 +23,7 @@ just add shell scripts to the "extras" folder and they will get sourced into the
 build.
 
 Extras included in this branch:
- - ``mongolab-url.sh``: Set ``MONGO_URL`` to the value of ``MONGOLAB_URL``
+ - ``mongolab-uri.sh``: Set ``MONGO_URL`` to the value of ``MONGOLAB_URI``
  - ``phantomjs.sh``: Include phantomjs for use with ``spiderable``.
 
 ## Where things go
