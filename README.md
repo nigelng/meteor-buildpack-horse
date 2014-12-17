@@ -9,7 +9,7 @@ To use this with your meteor app and heroku:
 1. Set up your app to [deploy to heroku with git](https://devcenter.heroku.com/articles/git).
 2. Set this repository as the buildpack URL:
 
-        heroku config:set BUILDPACK_URL=https://github.com/AdmitHub/meteor-buildpack-horse.git
+        heroku config:set BUILDPACK_URL=https://github.com/nigelng/meteor-buildpack-horse.git
 
 Once that's done, you can deploy your app using this build pack any time by pushing to heroku:
 
@@ -23,7 +23,7 @@ just add shell scripts to the "extras" folder and they will get sourced into the
 build.
 
 Extras included in this branch:
- - ``mongohq-url.sh``: Set ``MONGO_URL`` to the value of ``MONGOHQ_URL``
+ - ``mongolab-url.sh``: Set ``MONGO_URL`` to the value of ``MONGOLAB_URL``
  - ``phantomjs.sh``: Include phantomjs for use with ``spiderable``.
 
 ## Where things go
